@@ -1,0 +1,98 @@
+.header{
+  border: 2px  black;
+  border-radius: 6px;
+  background-color: lightblue;
+  height:50px;
+  width: 100%;
+  position: fixed;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.3);
+
+}
+#headername{
+  margin-left: 1rem;
+  margin-right: 10%;
+
+}
+
+.content{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: lightblue;
+  text-align: center;
+}
+body{
+  position: relative;
+}
+.navbutton{
+    background-color: lightblue;
+    border: none;
+    color: black;
+    height: 90%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#aboutimg{
+  max-width: 40%;
+  border: solid lightgrey;
+  border-radius: 6px;
+  margin-bottom: 1%;
+}
+#abouttext{
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 3%;
+}
+
+#contactform{
+  margin-bottom: 50px;
+  border-radius: 2px;
+}
+
+#sendbtn{
+  border: none;
+  width: 50%;
+  padding: 1px;
+  border-radius: 2px;
+}
+
+.socialButtonsRow{
+  margin: auto;
+  padding: 5px;
+}
+.grid{
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:space-around;
+  align-items:flex-start;
+  margin:0 auto;
+
+}
+
+.portfolioImgs{
+  padding:0;
+  max-width:400px !important;
+  max-width:80%;
+	list-style: none;
+	margin-top:20px;
+}
+.socialBtn{
+  border: none;
+  background-color: lightblue;
+  border-radius: 15px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.3);
+  color: white;
+}
